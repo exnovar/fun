@@ -21,3 +21,7 @@ def f(x):
 res = trapezoidal_rule(f, 2, 3, 100)
 
 print(res)
+
+idx = hash('mango')
+
+print(idx)
