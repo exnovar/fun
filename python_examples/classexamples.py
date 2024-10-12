@@ -37,8 +37,8 @@ for animal in animals:
 
 # new type of structure
 class Bob:
-    def __init__(self):
-        self.res = 0
+    def __init__(self, res=10):
+        self.res = res
 
     def calc(self):
         self.res = self.x + self.y
@@ -59,4 +59,9 @@ maths = [Jane(), Laura()]
 for math in maths:
     math.calc()
 
+# print print
 maths[0].print_res()
+
+bob = Bob()
+bob.print_res()
+
